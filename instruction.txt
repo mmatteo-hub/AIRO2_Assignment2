@@ -1,5 +1,5 @@
 # Github repo
-cd popf/tif/planner/src/
+cd popf-tif/planner/src/
 git clone https://github.com/mmatteo-hub/AIRO2_Assignment2.git
 
 # Change folder
