@@ -1,0 +1,6 @@
+# Github repo
+git clone https://github.com/mmatteo-hub/AIRO2_Assignment2.git
+
+
+# Command to run the popf
+./popf/popf3-clp -x ../src/AIRO2_Assignment2/assignment_files/visits_domain/dom1.pddl ../src/AIRO2_Assignment2/assignment_files/visits_domain/prob1.pddl ../src/AIRO2_Assignment2/assignment_files/visits_module/build/libVisits.so ../src/AIRO2_Assignment2/assignment_files/visits_domain/region_poses
