@@ -49,9 +49,9 @@ public:
     vector <string> source, target; 
     string starting_position;
      
-   
-   
     void parseParameters(string parameters);
+
+    double distance_euc(string from, string to);
  
 
 private:
