@@ -9,6 +9,8 @@ cd planner/src
 cd ../release
 make popf3-clp
 
+cd ../../../
+
 rm -r ./assignment_files/visits_module/build
 mkdir ./assignment_files/visits_module/build
 
