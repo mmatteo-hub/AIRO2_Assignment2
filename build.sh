@@ -1,16 +1,5 @@
 #!/bin/sh
 
-rm -r ./popf-tif
-mkdir ./popf-tif
-cd popf-tif
-git clone https://github.com/popftif/popf-tif .
-cd planner/src
-./build-instructions.txt
-cd ../release
-make popf3-clp
-
-cd ../../../
-
 rm -r ./assignment_files/visits_module/build
 mkdir ./assignment_files/visits_module/build
 
