@@ -4,8 +4,8 @@ MAIN_DIR=$(pwd)
 
 # Asking the user if he wants to download popf from the repo
 echo "The official popf-tif repo is (https://github.com/popftif/popf-tif)."
-echo "Do you want to download it from the official repo? (y/n)"
-echo "NB. This will remove all the files in ./popf-tif ."
+echo "Do you want to download popf-tif from the official repo? (y/n)"
+echo "NB. This will install the program into ./popf-tif ."
 read ANS
 
 if [[ $ANS == 'y' ]]
