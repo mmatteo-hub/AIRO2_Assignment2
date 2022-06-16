@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/matteomaragliano/popf-ti
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ec4a2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ec4a2.dir/build.make CMakeFiles/cmTC_ec4a2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5b4e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b4e3.dir/build.make CMakeFiles/cmTC_5b4e3.dir/build
 make[1]: Entering directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ec4a2.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_ec4a2.dir/testCCompiler.c.o   -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_ec4a2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec4a2.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ec4a2.dir/testCCompiler.c.o  -o cmTC_ec4a2 
+Building C object CMakeFiles/cmTC_5b4e3.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5b4e3.dir/testCCompiler.c.o   -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5b4e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b4e3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5b4e3.dir/testCCompiler.c.o  -o cmTC_5b4e3 
 make[1]: Leaving directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bc2a6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bc2a6.dir/build.make CMakeFiles/cmTC_bc2a6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7faae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7faae.dir/build.make CMakeFiles/cmTC_7faae.dir/build
 make[1]: Entering directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bc2a6.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_bc2a6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_bc2a6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc2a6.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_bc2a6.dir/CMakeCCompilerABI.c.o  -o cmTC_bc2a6 
+Building C object CMakeFiles/cmTC_7faae.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7faae.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_7faae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7faae.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_7faae.dir/CMakeCCompilerABI.c.o  -o cmTC_7faae 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bc2a6' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHE0ocn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bc2a6 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_bc2a6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bc2a6' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7faae' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccl1wiGq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7faae /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_7faae.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7faae' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_bc2a6/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_bc2a6.dir/build.make CMakeFiles/cmTC_bc2a6.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7faae/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7faae.dir/build.make CMakeFiles/cmTC_7faae.dir/build]
   ignore line: [make[1]: Entering directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_bc2a6.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_bc2a6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_bc2a6]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc2a6.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_bc2a6.dir/CMakeCCompilerABI.c.o  -o cmTC_bc2a6 ]
+  ignore line: [Building C object CMakeFiles/cmTC_7faae.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_7faae.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_7faae]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7faae.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_7faae.dir/CMakeCCompilerABI.c.o  -o cmTC_7faae ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bc2a6' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHE0ocn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bc2a6 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_bc2a6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7faae' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccl1wiGq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7faae /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_7faae.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccHE0ocn.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccl1wiGq.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_bc2a6] ==> ignore
+    arg [cmTC_7faae] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_bc2a6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_7faae.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -159,14 +159,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_77c70/fast"
-/usr/bin/make -f CMakeFiles/cmTC_77c70.dir/build.make CMakeFiles/cmTC_77c70.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_cd60d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd60d.dir/build.make CMakeFiles/cmTC_cd60d.dir/build
 make[1]: Entering directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_77c70.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_77c70.dir/feature_tests.c.o   -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_77c70
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77c70.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_77c70.dir/feature_tests.c.o  -o cmTC_77c70 
+Building C object CMakeFiles/cmTC_cd60d.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_cd60d.dir/feature_tests.c.o   -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_cd60d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd60d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cd60d.dir/feature_tests.c.o  -o cmTC_cd60d 
 make[1]: Leaving directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
 
 
@@ -179,14 +179,14 @@ make[1]: Leaving directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_As
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_abbdf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_abbdf.dir/build.make CMakeFiles/cmTC_abbdf.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_00573/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00573.dir/build.make CMakeFiles/cmTC_00573.dir/build
 make[1]: Entering directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_abbdf.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_abbdf.dir/feature_tests.c.o   -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_abbdf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abbdf.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_abbdf.dir/feature_tests.c.o  -o cmTC_abbdf 
+Building C object CMakeFiles/cmTC_00573.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_00573.dir/feature_tests.c.o   -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_00573
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00573.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_00573.dir/feature_tests.c.o  -o cmTC_00573 
 make[1]: Leaving directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
 
 
@@ -199,14 +199,14 @@ make[1]: Leaving directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_As
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_58fd2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_58fd2.dir/build.make CMakeFiles/cmTC_58fd2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2e8f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e8f7.dir/build.make CMakeFiles/cmTC_2e8f7.dir/build
 make[1]: Entering directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_58fd2.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_58fd2.dir/feature_tests.c.o   -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_58fd2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58fd2.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_58fd2.dir/feature_tests.c.o  -o cmTC_58fd2 
+Building C object CMakeFiles/cmTC_2e8f7.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_2e8f7.dir/feature_tests.c.o   -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2e8f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e8f7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2e8f7.dir/feature_tests.c.o  -o cmTC_2e8f7 
 make[1]: Leaving directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
 
 
@@ -217,28 +217,28 @@ make[1]: Leaving directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_As
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c8cb7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c8cb7.dir/build.make CMakeFiles/cmTC_c8cb7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f3bad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3bad.dir/build.make CMakeFiles/cmTC_f3bad.dir/build
 make[1]: Entering directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c8cb7.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_c8cb7.dir/testCXXCompiler.cxx.o -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_c8cb7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8cb7.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c8cb7.dir/testCXXCompiler.cxx.o  -o cmTC_c8cb7 
+Building CXX object CMakeFiles/cmTC_f3bad.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_f3bad.dir/testCXXCompiler.cxx.o -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f3bad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3bad.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f3bad.dir/testCXXCompiler.cxx.o  -o cmTC_f3bad 
 make[1]: Leaving directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2bf2a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2bf2a.dir/build.make CMakeFiles/cmTC_2bf2a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_99016/fast"
+/usr/bin/make -f CMakeFiles/cmTC_99016.dir/build.make CMakeFiles/cmTC_99016.dir/build
 make[1]: Entering directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2bf2a.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_2bf2a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_2bf2a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bf2a.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_2bf2a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2bf2a 
+Building CXX object CMakeFiles/cmTC_99016.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_99016.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_99016
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99016.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_99016.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_99016 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,9 +250,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2bf2a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxsNMwH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2bf2a /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2bf2a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2bf2a' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_99016' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5rWWyP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_99016 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_99016.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_99016' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
 
 
@@ -260,14 +260,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2bf2a/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2bf2a.dir/build.make CMakeFiles/cmTC_2bf2a.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_99016/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_99016.dir/build.make CMakeFiles/cmTC_99016.dir/build]
   ignore line: [make[1]: Entering directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_2bf2a.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_2bf2a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_2bf2a]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bf2a.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_2bf2a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2bf2a ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_99016.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_99016.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_99016]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99016.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_99016.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_99016 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_2bf2a' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxsNMwH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2bf2a /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2bf2a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_99016' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5rWWyP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_99016 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_99016.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccxsNMwH.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5rWWyP.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2bf2a] ==> ignore
+    arg [cmTC_99016] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_2bf2a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_99016.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,14 +344,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_24d8c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_24d8c.dir/build.make CMakeFiles/cmTC_24d8c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2e1b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e1b4.dir/build.make CMakeFiles/cmTC_2e1b4.dir/build
 make[1]: Entering directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_24d8c.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_24d8c.dir/feature_tests.cxx.o -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_24d8c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24d8c.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_24d8c.dir/feature_tests.cxx.o  -o cmTC_24d8c 
+Building CXX object CMakeFiles/cmTC_2e1b4.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_2e1b4.dir/feature_tests.cxx.o -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2e1b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e1b4.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_2e1b4.dir/feature_tests.cxx.o  -o cmTC_2e1b4 
 make[1]: Leaving directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
 
 
@@ -417,14 +417,14 @@ make[1]: Leaving directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_As
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9272a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9272a.dir/build.make CMakeFiles/cmTC_9272a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4f3bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f3bc.dir/build.make CMakeFiles/cmTC_4f3bc.dir/build
 make[1]: Entering directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9272a.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_9272a.dir/feature_tests.cxx.o -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9272a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9272a.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_9272a.dir/feature_tests.cxx.o  -o cmTC_9272a 
+Building CXX object CMakeFiles/cmTC_4f3bc.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_4f3bc.dir/feature_tests.cxx.o -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4f3bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f3bc.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4f3bc.dir/feature_tests.cxx.o  -o cmTC_4f3bc 
 make[1]: Leaving directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
 
 
@@ -490,14 +490,14 @@ make[1]: Leaving directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_As
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4556d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4556d.dir/build.make CMakeFiles/cmTC_4556d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d3e1f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3e1f.dir/build.make CMakeFiles/cmTC_d3e1f.dir/build
 make[1]: Entering directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4556d.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_4556d.dir/feature_tests.cxx.o -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4556d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4556d.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4556d.dir/feature_tests.cxx.o  -o cmTC_4556d 
+Building CXX object CMakeFiles/cmTC_d3e1f.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_d3e1f.dir/feature_tests.cxx.o -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d3e1f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3e1f.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_d3e1f.dir/feature_tests.cxx.o  -o cmTC_d3e1f 
 make[1]: Leaving directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
 
 
@@ -563,14 +563,14 @@ make[1]: Leaving directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_As
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6314e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6314e.dir/build.make CMakeFiles/cmTC_6314e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e63a2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e63a2.dir/build.make CMakeFiles/cmTC_e63a2.dir/build
 make[1]: Entering directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6314e.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_6314e.dir/feature_tests.cxx.o -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6314e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6314e.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_6314e.dir/feature_tests.cxx.o  -o cmTC_6314e 
+Building CXX object CMakeFiles/cmTC_e63a2.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_e63a2.dir/feature_tests.cxx.o -c /home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e63a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e63a2.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e63a2.dir/feature_tests.cxx.o  -o cmTC_e63a2 
 make[1]: Leaving directory '/home/matteomaragliano/popf-tif/planner/src/AIRO2_Assignment2/assignment_files/visits_module/build/CMakeFiles/CMakeTmp'
 
 
