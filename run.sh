@@ -1,15 +1,27 @@
 #!/bin/bash
+# Every command that fails will cause the script to terminate
+set -e
 
+# Defining some useful variables
+GREEN='\033[0;32m' 
+UGREEN='\033[4;32m' 
+RESET='\033[0m'
+
+# Default (yes/no) hint formatting
+GREEN_YES_NO="${RESET}${GREEN}(${UGREEN}y${GREEN}es/${UGREEN}n${GREEN}o)${RESET}"
+
+# Default POPF installation directory
 POPF=./popf-tif/planner/release/popf/popf3-clp
 
-echo "The default popf3-clp executable file is located here:"
-echo $POPF
-echo "Do you want to a custom popf3-clp executable? (y/n)"
+printf "The default popf3-clp executable file is located here:\n"
+printf "$POPF\n"
+printf "${GREEN}Do you want to use a different popf3-clp executable? ${GREEN_YES_NO}${RESET}\n"
 read ANS
 
 if [[ $ANS == 'y' ]]
 then
-    echo "Insert the custom popf3-clp executable location:"
+    printf "\n"
+    printf "${GREEN}Insert the custom popf3-clp executable location:${RESET}\n"
     read POPF
 fi
 
