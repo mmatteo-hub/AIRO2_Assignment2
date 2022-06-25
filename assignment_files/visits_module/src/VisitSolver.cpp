@@ -104,7 +104,9 @@ map<string, double> VisitSolver::callExternalSolver(map<string, double> initialS
 
                 if (value > 0)
                 {
-                    string from = tmp.substr(0, 2); // from and to are regions, need to extract wps (poses)
+                    // This extract the parameters from the "triggered" function
+                    // So, variables "from" and "to" are regions, need to extract waitpoints
+                    string from = tmp.substr(0, 2);
                     string to = tmp.substr(3, 2);
 
                     dummy = distance_euc(from, to);
@@ -120,10 +122,7 @@ map<string, double> VisitSolver::callExternalSolver(map<string, double> initialS
             else if (function == "act-cost")
             {
                 act_cost = value;
-            } // else if(function=="dummy1"){
-              // duy = value;
-              ////cout << parameter << " " << value << endl;
-            //}
+            }
         }
     }
 
